@@ -3,7 +3,8 @@
   color: var(--secondary-text-color);
   padding: 180px 200px;
   text-align: left;
-  position: relative;  /* To allow positioning of the arrow icon */
+  position: relative;
+  box-shadow: 12px 10px #000;
 }
 
 .banner-content {
@@ -21,7 +22,6 @@
   padding-left: 8px;
 }
 
-/* Button Styling */
 .bannerButton, .secondBannerButton {
   padding: 15px 32px;
   font-size: 18px;
@@ -29,10 +29,9 @@
   border: none;
   border-radius: 4px;
   margin-right: 30px;
-  font-family: inherit; /* Ensure button text inherits global font */
+  font-family: inherit;
 }
 
-/* Button Color Variables */
 .bannerButton {
   background-color: var(--secondary-text-color);
   color: var(--secondary-color);
@@ -41,24 +40,22 @@
 }
 
 .bannerButton:hover {
-  background: none;  /* Secondary button has independent color */
+  background: none;
   color: var(--secondary-text-color);
   border: 2px solid var(--secondary-text-color);
 }
 
-/* Independent styling for the second button */
 .secondBannerButton {
   background: none;
-  color: var(--secondary-text-color);  /* Control hover via secondary text color */
+  color: var(--secondary-text-color);
   border: 2px solid var(--secondary-text-color);
 }
 
 .secondBannerButton:hover {
-  background-color: var(--secondary-text-color);  /* Reverse hover */
+  background-color: var(--secondary-text-color);
   color: var(--secondary-color);
 }
 
-/* Scroll Down Arrow */
 .scrollArrow {
   position: absolute;
   bottom: 20px;
@@ -67,7 +64,7 @@
   font-size: 24px;
   cursor: pointer;
   animation: bounce 2s infinite;
-  color: var(--secondary-text-color);  /* Control arrow color with text color */
+  color: var(--secondary-text-color);
 }
 
 @keyframes bounce {

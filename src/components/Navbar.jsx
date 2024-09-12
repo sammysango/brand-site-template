@@ -5,7 +5,6 @@ import ThemeToggle from './ThemeToggle';
 export const Navbar = ({ logo }) => {
   return (
     <nav className={styles.navbar}>
-      {/* Container for logo and nav links on the left */}
       <div className={styles.logoNavLinksContainer}>
         <div className={styles.logo}>
           <img src={logo} alt="Logo" className={styles.logoImage} />
@@ -17,7 +16,6 @@ export const Navbar = ({ logo }) => {
         </ul>
       </div>
 
-      {/* Theme toggle on the far right */}
       <ThemeToggle />
     </nav>
   );

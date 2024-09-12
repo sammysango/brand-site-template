@@ -10,7 +10,6 @@ const ThemeToggle = () => {
   };
 
   useEffect(() => {
-    // Load theme based on previous preference
     const savedTheme = localStorage.getItem('dark-mode');
     if (savedTheme === 'true') {
       setDarkMode(true);
@@ -19,7 +18,6 @@ const ThemeToggle = () => {
   }, []);
 
   useEffect(() => {
-    // Save theme preference to localStorage
     localStorage.setItem('dark-mode', darkMode);
   }, [darkMode]);
 

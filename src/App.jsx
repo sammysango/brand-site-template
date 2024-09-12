@@ -24,10 +24,16 @@ function App() {
     'Montserrat, sans-serif',
     'Poppins, sans-serif',
     'Raleway, sans-serif',
-    'Arial, sans-serif',
-    'Georgia, serif',
-    'Verdana, sans-serif',
-    'Helvetica, sans-serif'
+    'Source Code Pro, monospace',  // Monospace / Developer Style
+    'Dancing Script, cursive',  // Stylized
+    'Lobster, cursive',  // Stylized
+    'Amatic SC, cursive',  // Stylized
+    'Lato, sans-serif',  // Versatile
+    'Merriweather, serif',  // Versatile
+    'Nunito, sans-serif',  // Versatile
+    'IBM Plex Sans, sans-serif',  // Versatile
+    'Fira Sans, sans-serif',  // Versatile
+    'Playfair Display, serif'  // Versatile
   ];
 
   const nextLogo = () => {

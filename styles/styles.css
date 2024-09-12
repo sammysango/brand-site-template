@@ -1,4 +1,3 @@
-/* Global Variables */
 :root {
     --primary-color: #f2f2f2;
     --secondary-color: var(--primary-color);
@@ -9,7 +8,7 @@
     --font-family: 'Roboto', sans-serif;
   }
   
-  /* Global reset and body styling */
+  /* global reset/body styling */
   * {
     margin: 0;
     padding: 0;
@@ -42,8 +41,6 @@
     align-items: center;
   }
 
-  /* Exclude bottom bar from the global font */
 .bottomBar {
-    font-family: Arial, sans-serif !important;  /* Force default font for the bottom bar */
+    font-family: Arial, sans-serif !important;
   }
-  
