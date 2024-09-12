@@ -1,0 +1,92 @@
+.bottomBar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 900;
+    font-size: 0.85rem;
+    color: #121212;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.4);
+    font-family: Arial, sans-serif !important;  /* Exclude from font toggling */
+  }
+  
+  .bottomBarItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #e6e6e6;
+    padding: 10px 10px;
+    border-radius: 99px;
+  }
+  
+  .bottomBarItemCombined {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #e6e6e6;
+    padding: 10px 10px;
+    border-radius: 99px;
+  }
+  
+  .colorPicker {
+    width: 35px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .colorPicker::-webkit-color-swatch {
+    border-radius: 50%;
+  }
+  
+  .colorPicker::-moz-color-swatch {
+    border-radius: 50%;
+  }
+  
+  /* Style for the toggle buttons */
+  .toggleButton {
+    background-color: #121212;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 99px;
+    width: 35px;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+  }
+  
+  .toggleButton:hover {
+    background-color: #555;
+  }
+  
+  /* Style for the Randomize button container (kept separate) */
+  .randomizeButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #e6e6e6;  /* Can be adjusted */
+    border-radius: 99px;  /* Slightly rounded */
+  }
+  
+  /* Style for the Randomize button itself */
+  .randomizeButton {
+    background-color: #121212;  /* Customizable color */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 99px;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+  }
+  
+  .randomizeButton:hover {
+    background-color: #121212;  /* Custom hover color */
+  }

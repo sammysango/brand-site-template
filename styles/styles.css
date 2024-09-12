@@ -1,0 +1,49 @@
+/* Global Variables */
+:root {
+    --primary-color: #f2f2f2;
+    --secondary-color: var(--primary-color);
+    --text-color: #1c1c1c;
+    --secondary-text-color: var(--text-color);
+    --dark-bg-color: #333;
+    --light-bg-color: #f9f9f9;
+    --font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Global reset and body styling */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    background-color: var(--light-bg-color);
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark-theme {
+    background-color: var(--dark-bg-color);
+    color: #f0f0f0;
+  }
+  
+  /* Utility Classes */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Exclude bottom bar from the global font */
+.bottomBar {
+    font-family: Arial, sans-serif !important;  /* Force default font for the bottom bar */
+  }
+  

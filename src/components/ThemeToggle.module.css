@@ -1,0 +1,38 @@
+.themeSwitch {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 25px;
+    background-color: #333;
+    border-radius: 12.5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 35px;
+  }
+  
+  .darkMode {
+    background-color: var(--text-color);
+  }
+  
+  .themeSwitchCircle {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .darkMode .themeSwitchCircle {
+    transform: translateX(33px);
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    font-size: 12px;
+  }
