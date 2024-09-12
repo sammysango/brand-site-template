@@ -16,7 +16,7 @@ function App() {
   const [secondaryTextColor, setSecondaryTextColor] = useState('');  // Secondary text color
   const [fontIndex, setFontIndex] = useState(0);  // Font index for toggling fonts
 
-  // Array of fonts to toggle through
+  // Expanded Array of fonts to toggle through
   const fonts = [
     'Roboto, sans-serif',
     'Open Sans, sans-serif',
@@ -33,7 +33,15 @@ function App() {
     'Nunito, sans-serif',  // Versatile
     'IBM Plex Sans, sans-serif',  // Versatile
     'Fira Sans, sans-serif',  // Versatile
-    'Playfair Display, serif'  // Versatile
+    'Playfair Display, serif',  // Versatile
+    'Oswald, sans-serif',  // Condensed Sans-serif
+    'Pacifico, cursive',  // Handwritten Script
+    'Bebas Neue, sans-serif',  // Bold Display
+    'Anton, sans-serif',  // Bold Sans-serif
+    'Indie Flower, cursive',  // Handwriting Script
+    'Zilla Slab, serif',  // Slab Serif
+    'Great Vibes, cursive',  // Elegant Cursive
+    'Abril Fatface, serif'  // Display Serif
   ];
 
   const nextLogo = () => {
