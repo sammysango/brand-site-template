@@ -1,0 +1,31 @@
+.secondBanner {
+    background-color: var(--primary-color);
+    padding-bottom: 50px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconSection {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+  }
+  
+  .iconItem {
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .iconItem p {
+    margin-top: 30px;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }

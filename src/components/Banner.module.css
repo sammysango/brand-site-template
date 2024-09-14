@@ -1,14 +1,32 @@
 .banner {
+  position: relative;
   background-color: var(--secondary-color);
   color: var(--secondary-text-color);
   padding: 180px 200px;
   text-align: left;
-  position: relative;
-  box-shadow: 12px 10px #000;
 }
 
-.banner-content {
-  max-width: 600px;
+.graphicContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.graphic {
+  max-width: 100%;
+  height: auto;
+}
+
+.bannerContent {
+  position: relative;
+  z-index: 1;
 }
 
 .banner h1 {
@@ -61,7 +79,7 @@
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: 30px;
   cursor: pointer;
   animation: bounce 2s infinite;
   color: var(--secondary-text-color);

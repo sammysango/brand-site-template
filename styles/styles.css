@@ -3,7 +3,9 @@
     --secondary-color: var(--primary-color);
     --text-color: #1c1c1c;
     --secondary-text-color: var(--text-color);
-    --dark-bg-color: #333;
+    --theme-color-complimentary: #ff6347;
+    --text-color-complimentary: #ffd700;
+    --dark-bg-color: #1b1b1b;
     --light-bg-color: #f9f9f9;
     --font-family: 'Roboto', sans-serif;
   }

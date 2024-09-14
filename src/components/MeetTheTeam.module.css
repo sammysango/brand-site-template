@@ -1,0 +1,50 @@
+.teamContainer {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .teamGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+  }
+  
+  .teamMember {
+    text-align: center;
+  }
+  
+  .imageContainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px; /* gradient border size */
+  }
+  
+  .teamImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .memberName {
+    margin: 25px 0;
+    padding-bottom: 50px;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    font-weight: bold;
+    text-align: center;
+  }

@@ -1,0 +1,40 @@
+/* Full-width banner container */
+.bannerContainer {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 40px 250px;
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+  }
+  
+  .bannerContent {
+    max-width: 60%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .bannerText {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+  
+  .bannerButton {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    padding: 17px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bannerButton:hover {
+    background-color: var(--theme-color-complimentary);
+  }
